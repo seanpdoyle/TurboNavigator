@@ -19,6 +19,12 @@
     icon: "bi-arrow-up",
     name: "Modal navigation",
     description: "Present a modal screen." %>
+
+  <%= render "navigations/item",
+    path: new_modal_path(redirect: true),
+    icon: "bi-arrow-up",
+    name: "Redirect from Modal to Basic",
+    description: "Redirect from a modal screen to a screen on the stack." %>
 </div>
 
 <div class="d-flex gap-2 justify-content-sm-center mt-5">
